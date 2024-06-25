@@ -38,6 +38,8 @@ fi
     -master \
     -maxplayers "${CSS_MAXPLAYERS}" \
     -port "${CSS_PORT}" \
+    -steam_dir "${HOMEDIR}/Steam" \
+    -steamcmd_script "${STEAMCMDDIR}" \
     -strictportbind \
     -tickrate "${CSS_TICKRATE}" \
     -usercon
